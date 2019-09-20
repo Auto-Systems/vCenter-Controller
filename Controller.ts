@@ -1,8 +1,6 @@
 // Backend/src/modules/Controller/vCenter/index.ts
-import { NodeOS } from 'API/Modules/Controllers/Nodes/NodeOS';
-import { NodePower } from 'API/Modules/Controllers/Nodes/NodePower';
 import { loginVCSA, vCenter } from 'ts-vcenter';
-import { controllerMethod, ControllerModule } from '../Decorators';
+import { controllerMethod, ControllerModule } from 'API/Controller/Decorators';
 import {
   CreateNodeInput,
   Host,
@@ -16,7 +14,9 @@ import {
   NodeInfo,
   powerNodeType,
   Storage,
-} from '../types';
+  NodeOS,
+  NodePower
+} from 'API/Controller/types';
 
 // @ts-ignore
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
