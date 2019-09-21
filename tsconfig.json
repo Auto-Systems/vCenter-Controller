@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": ".",
+    "module": "commonjs",
+    "paths": {
+      "API/*": ["*"]
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}

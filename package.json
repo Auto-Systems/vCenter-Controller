@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-vcenter": "^0.3.11"
+    "ts-vcenter": "^0.3.11",
+    "typescript": "^3.6.3"
   }
 }
