@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "module": "commonjs",
     "paths": {
-      "API/*": ["*"]
+      "API/Controller/*": ["../../*"]
     },
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true

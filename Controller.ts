@@ -1,6 +1,8 @@
 // Backend/src/modules/Controller/vCenter/index.ts
 import { loginVCSA, vCenter } from 'ts-vcenter';
+// @ts-ignore
 import { controllerMethod, ControllerModule } from 'API/Controller/Decorators';
+// @ts-ignore
 import {
   CreateNodeInput,
   Host,
